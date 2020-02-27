@@ -1,0 +1,378 @@
+	@font-face{
+		font-family:Airfool ;
+		src:url(18392.otf);
+	}
+	body{
+	margin: 0;
+	background-color: #000;
+}
+#top-menu{
+	position: sticky;
+	height: 60px;
+	width: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.9);
+	z-index: 1000;
+}
+.box{
+	position: relative;
+	width: 100%;
+	overflow-x: hidden;
+}
+#ad-box{
+	height: 150px;
+	overflow: hidden;
+}
+#ad-box-img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
+.top-menu-btn{
+	position: relative;
+	height: 30px;
+	padding: 15px;
+	display: inline-block;
+	font-size: 25px;
+	color: #fff;
+}
+.vec{
+	height: 50%;
+	transition-duration: 1s;
+	transition-property: transform;
+}
+.top-menu-btn:hover .vec{
+	transform: rotateX(180deg) rotateY(-180deg);
+}
+#ad-box-text{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	width: 40%;
+	font-size: 40px;
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+}
+.simple-border-btn{
+	padding: 15px;
+	margin: 15px;
+	border: solid #fff 3px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000 inset;
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 0 10px #000;
+	transition-duration: 200ms;
+	transition-property: padding, margin;
+}
+.simple-border-btn:hover{
+	padding: 20px;
+	margin: 10px;
+}
+.simple-solid-btn{
+	padding: 15px;
+	margin: 15px;
+	border: solid #974 3px;
+	border-radius: 5px;
+	font-size: 35px;
+	color: #000;
+	text-align: center;
+	text-shadow: 0 0 10px #000;
+	background-color: #974;
+	transition-duration: 200ms;
+	transition-property: padding, margin;
+}
+.simple-solid-btn:hover{
+	padding: 20px;
+	margin: 10px;
+}
+#ad-box-btn{
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	width: 170px;
+	margin: 0;
+}
+#box1{
+	margin-bottom: -3px;
+}
+#box1-img{
+	width: 100%;
+}
+.middle{
+	height: 3px;
+	width: 100%;
+	background: linear-gradient(to right,#f20000,#f28500,#ffff00,#04ff00,#5d00ff,#ff00e1);
+}
+#box1-title{
+	position: absolute;
+	top: 50%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	max-width: 45%;
+	color: #fff;
+	font-size: 30px;
+}
+#box1-title b{
+	font-size: 50px;
+}
+#box1-title a{
+	text-decoration: none;
+}
+.box1-title-btn{
+	display: inline-block;
+}
+.tmb-menu{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #000;
+	transform: translateY(-50%) scaleY(0);
+	transition-duration: 200ms;
+	transition-property: transform;
+}
+.top-menu-btn:hover .tmb-menu{
+	transform: translateY(0) scaleY(1);
+}
+.tmb-menu a{
+	text-decoration: none;
+}
+.tmb-menu-btn{
+	display: inline-block;
+}
+#box3{
+	height: 1000px;
+	background-color: #ddd;
+	font-family: Airfool;
+}
+#box3-cards{
+	height: 900px;
+	width: 1106px;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.box3-card{
+	position: relative;
+	background-color: #222;
+	height: 100%;
+	width: 550px;
+	display: inline-block;
+}
+.box3-card-img{
+	position: absolute;
+	width: 100%;
+}
+.box3-card-gradient{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to top, 
+		rgba(60,0,0,1) 25%, rgba(0,0,0,0) 65%);
+}
+.box3-card-title{
+	position: absolute;
+	width: 100%;
+	bottom: 5%;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+.box3-card-btn{
+	display: inline-block;
+}
+.box3-card-title a{
+	text-decoration: none;
+}
+.box3-card-title b{
+	font-size: 50px;
+}
+#footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #111;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+#footer a{
+	color: #fff;
+	text-decoration: none;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
+#box5{
+	height: 1000px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	
+}
+#box5-text{
+	color: #fff;
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+#box5-cards{
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.box5-card{
+	height: 800px;
+	width: 450px;
+	display: inline-block;
+	margin: 5px;
+	background-color: #222;
+	position: relative;
+	transition-duration: 500ms;
+	transition-property: transform, box-shadow;
+}
+.box5-card:hover{
+	transform: translateY(-10px);
+	box-shadow: 0 20px 10px #242175;
+}
+.box5-card-img{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.box5-card-text b{
+	color: #ff0;
+}
+.box5-card-text{
+	position: absolute;
+	left: 0;
+	top: 265px;
+	color: #fff;
+	font-size: 35px;
+	text-align: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 90%;
+}
+.box5-card-text .second{
+	font-size: 25px;
+}
+#box4{
+	height: 1000px;
+}
+#box4-more{
+	position: absolute;
+	right: 40%;
+	top: 100px;
+	height: 800px;
+	width: 800px;
+	color: #fff;
+	min-height: 500px;
+	font-size: 30px;
+}
+#box4-simple{
+	position: absolute;
+	left: 60%;
+	top: 100px;
+	width: 400px;
+	min-height: 300px;
+	background-color: #ddd;
+	min-height: 500px;
+}
+#box4-simple-btns{
+	position: relative;
+	background-color: #bbb;
+	height: 75px;
+	font-size: 20px;
+}
+.box4-simple-btn{
+position: absolute;
+height: 100%;
+top: 0;
+color: #000;
+}
+
+#box4-simple-btn1{
+	left: 0;
+	width: 120px
+}
+#box4-simple-btn2{
+	left: 120px;
+	width: 120px;
+}
+#box4-simple-btn3{
+	left: 240px;
+	width: 160px;
+}
+.box4-simple-main{
+color: #000;
+padding-top:10px;
+text-align: left; 
+}
+#box4-more1{
+	display: none;
+}
+#box4-more2{
+	display: none;
+}
+#box4-more3{
+	display: none;
+}
+
+#box4-simple-main1{
+	display: none;
+}
+#box4-simple-main2{
+	display: none;
+}
+#box4-simple-main3{
+	display: none;
+}
+
+.box-simple-main-img{
+	width: 100%;
+	height: 100px;
+}
+
+#top{
+	height: 150px;
+	text-align:right;  
+	background-color: #119;
+}
+.top-img{
+	height: 100%;
+	display: inline-block;
+	transition-duration: 600ms;
+	transition-property: transform , background-color; 
+}
+.top-img:hover{
+	background-color: rgba(255,0,0,0.2);
+	transform: rotate3d(1, 1, 1, 360deg);
+}
+#box4-5-bg{
+	background-image: url(2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+
+}
+#box6{
+	padding-top:  100px;
+	padding-bottom:100px;
+}
+
+#box6 th{
+	height: 200px;
+	width: 200px;
+	background: linear-gradient(to right,#f20000,#f28500,#ffff00,#04ff00,#5d00ff,#ff00e1);
+}
+#box6 table{
+	margin: auto;
+}
