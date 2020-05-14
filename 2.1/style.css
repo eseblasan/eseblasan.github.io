@@ -85,6 +85,7 @@ opacity: 1;
 	text-shadow: 0 0 10px #000;
 	left: 80px;
 	z-index: 1000;
+	height:33px;
 }
 #top-menu a{
 	text-decoration: none;
@@ -102,6 +103,7 @@ opacity: 1;
 	border-right:solid transparent 2px;
 	transition-property: background-color ;
 	transition-duration:200ms;
+	overflow: hidden;
 	z-index: 100;
 }
 .top-menu-btn:hover{
